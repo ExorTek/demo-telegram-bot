@@ -1,0 +1,22 @@
+{
+  "name": "demo-telegram-bot",
+  "packageManager": "yarn@4.5.0",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "format": "prettier --write ."
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "printWidth": 120,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
