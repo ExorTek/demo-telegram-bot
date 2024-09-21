@@ -1,0 +1,10 @@
+logs
+*.log
+node_modules/
+.env
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.idea
